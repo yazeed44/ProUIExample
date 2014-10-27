@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProUIExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Label</string>
+    <string name="action_red">Blood Red</string>
+    <string   name="actionred">RED</string>
+    <string  name="action_org">Burnt Orange</string>
+    <string  name="actionorg">ORG</string>
+    <string name="action_yel">Banana Yellow</string>
+    <string  name="actionyel">YEL</string>
+    <string  name="action_grn">Forest Green</string>
+    <string  name="actiongrn">GRN</string>
+    <string  name="action_blu">Ocean Blue</string>
+    <string name="actionblu">BLU</string>
+    <string name="action_pur">Deep Purple</string>
+    <string name="actionper">PUR</string>
+    <string  name="action_wht">Stark White</string>
+<string name="actionwht">WHT</string>
+
+</resources>
