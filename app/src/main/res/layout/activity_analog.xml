@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -9,11 +9,42 @@
         android:id="@+id/analogView" />
 
     <AnalogClock
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/abo_rihan"
-        android:dial="@drawable/ic_launcher"
+        android:layout_below="@id/analogView"
+        android:layout_marginTop="2dp"
+        android:id="@+id/analogClock"
+        />
+
+    <Button
+        android:id="@+id/simpleClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple 3D Clock"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/analogClock"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World 3D Clock"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/simpleClock"
+        android:layout_marginTop="8dp"
+        android:id="@+id/worldClock"
 
         />
-</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy 3D Clock"
+        android:layout_below="@id/worldClock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        />
+</RelativeLayout>
